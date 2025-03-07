@@ -19,7 +19,7 @@ public class McScript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
-            mcRigidbody.linearVelocityY = jump*Time.deltaTime;
+            mcRigidbody.linearVelocityY = jump;
         }
 
         if (Input.GetKeyDown(KeyCode.S) && isGrounded)
@@ -32,7 +32,7 @@ public class McScript : MonoBehaviour
 
         if (Input.GetKey(KeyCode.D))
         {
-            mcRigidbody.linearVelocityX = speed * Time.deltaTime;
+            mcRigidbody.linearVelocityX = speed ;
             if (transform.localScale.x < 0)
             {
                 Vector3 Scaler = transform.localScale;
@@ -43,7 +43,7 @@ public class McScript : MonoBehaviour
 
         else if (Input.GetKey(KeyCode.A))
         {
-            mcRigidbody.linearVelocityX = -speed* Time.deltaTime;
+            mcRigidbody.linearVelocityX = -speed;
             if (transform.localScale.x > 0)
             {
                 Vector3 Scaler = transform.localScale;
