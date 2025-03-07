@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 02a7dd193573b8246bb348e850e3ee93
+guid: 74e6c696efe4370438b44d9ebde607df
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -43,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -184,10 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Leibniz_idle_0: -6435113864764627201
-      Leibniz_idle_1: -5449532078701587642
-      Leibniz_idle_2: -8834640980004274109
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

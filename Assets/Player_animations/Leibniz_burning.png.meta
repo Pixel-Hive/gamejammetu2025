@@ -1,19 +1,31 @@
 fileFormatVersion: 2
-guid: c61927c570407e3438a1596138edba12
+guid: 7bc10f1ad430dd8468a508c828b156c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4329440586233989439
-    second: Levels_0
+      213: -5137784188343526844
+    second: Leibniz_burning_0
   - first:
-      213: 3483283174894770639
-    second: Levels_1
+      213: -2410023128634630459
+    second: Leibniz_burning_1
   - first:
-      213: -3073875581494082270
-    second: Levels_2
+      213: 6074327877245576146
+    second: Leibniz_burning_2
   - first:
-      213: -8582481030776740843
-    second: Levels_3
+      213: 5365679703364065804
+    second: Leibniz_burning_3
+  - first:
+      213: -4497712822939863651
+    second: Leibniz_burning_4
+  - first:
+      213: 1851299739723737415
+    second: Leibniz_burning_5
+  - first:
+      213: -750697754947499691
+    second: Leibniz_burning_6
+  - first:
+      213: 6747895628438321406
+    second: Leibniz_burning_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -109,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Levels_0
+      name: Leibniz_burning_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 37
-        width: 22
-        height: 21
+        x: 3
+        y: 0
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1c63d55a9bcbae3c0800000000000000
-      internalID: -4329440586233989439
+      spriteID: 44a5a29708ce2b8b0800000000000000
+      internalID: -5137784188343526844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Levels_1
+      name: Leibniz_burning_1
       rect:
         serializedVersion: 2
-        x: 37
-        y: 37
-        width: 22
-        height: 21
+        x: 33
+        y: 0
+        width: 26
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fc992b3a79b175030800000000000000
-      internalID: 3483283174894770639
+      spriteID: 5ced14dbbb0ed8ed0800000000000000
+      internalID: -2410023128634630459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Levels_2
+      name: Leibniz_burning_2
       rect:
         serializedVersion: 2
-        x: 5
-        y: 5
-        width: 22
-        height: 21
+        x: 66
+        y: 0
+        width: 23
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2254c49d1766755d0800000000000000
-      internalID: -3073875581494082270
+      spriteID: 2d3a97c65095c4450800000000000000
+      internalID: 6074327877245576146
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Levels_3
+      name: Leibniz_burning_3
       rect:
         serializedVersion: 2
-        x: 37
-        y: 5
-        width: 22
-        height: 21
+        x: 96
+        y: 0
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,8 +202,96 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 514260579f6e4e880800000000000000
-      internalID: -8582481030776740843
+      spriteID: c0ad989f249b67a40800000000000000
+      internalID: 5365679703364065804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9533f6740ae491c0800000000000000
+      internalID: -4497712822939863651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_5
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 28
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749a10ffd4321b910800000000000000
+      internalID: 1851299739723737415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_6
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 0
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559cba68e5cf495f0800000000000000
+      internalID: -750697754947499691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_7
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 0
+        width: 83
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef83a7a725755ad50800000000000000
+      internalID: 6747895628438321406
       vertices: []
       indices: 
       edges: []
@@ -209,11 +309,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Levels_0: -4329440586233989439
-      Levels_1: 3483283174894770639
-      Levels_2: -3073875581494082270
-      Levels_3: -8582481030776740843
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
