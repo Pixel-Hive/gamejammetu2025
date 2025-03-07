@@ -3,6 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class Logic : MonoBehaviour
 {
+    public GameObject gameOverScreen;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -18,4 +19,10 @@ public class Logic : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+
+    public void gameOver()
+    {
+        gameOverScreen.SetActive(true);
+    }
+
 }

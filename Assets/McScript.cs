@@ -7,6 +7,8 @@ public class McScript : MonoBehaviour
     public float speed;
     public float jump;
     private bool isGrounded;
+    public Logic logic;
+    public bool birdIsAlive = true;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,12 +19,12 @@ public class McScript : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded && birdIsAlive)
         {
             mcRigidbody.linearVelocityY = jump;
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.S) && isGrounded && birdIsAlive)
         {
             Vector3 Scaler = transform.localScale;
             Scaler.y *= -1;
@@ -30,7 +32,7 @@ public class McScript : MonoBehaviour
             mcRigidbody.gravityScale *= -1;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && birdIsAlive)
         {
             mcRigidbody.linearVelocityX = speed ;
             if (transform.localScale.x < 0)
@@ -41,7 +43,7 @@ public class McScript : MonoBehaviour
             }
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && birdIsAlive)
         {
             mcRigidbody.linearVelocityX = -speed;
             if (transform.localScale.x > 0)
@@ -62,6 +64,12 @@ public class McScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+
+        if (collision.gameObject.CompareTag("Death"))
+        {
+            birdIsAlive = false;
+            logic.gameOver();
         }
     }
 
