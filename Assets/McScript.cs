@@ -16,10 +16,12 @@ public class McScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (Input.GetKeyDown(KeyCode.W) && isGrounded)
         {
             mcRigidbody.linearVelocityY = jump*Time.deltaTime;
         }
+
         if (Input.GetKeyDown(KeyCode.S) && isGrounded)
         {
             Vector3 Scaler = transform.localScale;
@@ -27,6 +29,7 @@ public class McScript : MonoBehaviour
             transform.localScale = Scaler;
             mcRigidbody.gravityScale *= -1;
         }
+
         if (Input.GetKey(KeyCode.D))
         {
             mcRigidbody.linearVelocityX = speed * Time.deltaTime;
@@ -37,6 +40,7 @@ public class McScript : MonoBehaviour
                 transform.localScale = Scaler;
             }
         }
+
         else if (Input.GetKey(KeyCode.A))
         {
             mcRigidbody.linearVelocityX = -speed* Time.deltaTime;
@@ -47,6 +51,7 @@ public class McScript : MonoBehaviour
                 transform.localScale = Scaler;
             }
         }
+
         else
         {
             mcRigidbody.linearVelocityX = 0;
