@@ -7,7 +7,32 @@ public class McScript : MonoBehaviour
     public float speed;
     public float jump;
     private bool isGrounded;
+
+    private bool _isMoving = false;
+    private Animator animator;
+
+    public bool IsMoving
+    {
+        get
+        {
+            return _isMoving;
+        }
+        set
+        {
+            _isMoving = value;
+            animator.SetBool("isMoving", value);
+        }
+    }
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
+
+    private void Awake()
+    {
+        mcRigidbody = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
+    }
+
     void Start()
     {
         
@@ -56,6 +81,8 @@ public class McScript : MonoBehaviour
         {
             mcRigidbody.linearVelocityX = 0;
         }
+
+        IsMoving = mcRigidbody.linearVelocityX != 0;
     }
     private void OnCollisionEnter2D(Collision2D collision)
     {

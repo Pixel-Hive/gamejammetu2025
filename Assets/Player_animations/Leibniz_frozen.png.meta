@@ -49,7 +49,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -87,7 +87,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -234,7 +234,12 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Leibniz_frozen_0: 3776796849881609913
+      Leibniz_frozen_1: -2243843215843457312
+      Leibniz_frozen_2: 6000306925741311777
+      Leibniz_frozen_3: 7218345372933439522
+      Leibniz_frozen_4: 828472922334705967
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
