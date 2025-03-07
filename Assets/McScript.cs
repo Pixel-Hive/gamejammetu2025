@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.UIElements;
 
 public class McScript : MonoBehaviour
 {
@@ -22,10 +23,22 @@ public class McScript : MonoBehaviour
         if (Input.GetKey(KeyCode.D))
         {
             mcRigidbody.linearVelocityX = speed * Time.deltaTime;
+            if (transform.localScale.x < 0)
+            {
+                Vector3 Scaler = transform.localScale;
+                Scaler.x *= -1;
+                transform.localScale = Scaler;
+            }
         }
         else if (Input.GetKey(KeyCode.A))
         {
             mcRigidbody.linearVelocityX = -speed* Time.deltaTime;
+            if (transform.localScale.x > 0)
+            {
+                Vector3 Scaler = transform.localScale;
+                Scaler.x *= -1;
+                transform.localScale = Scaler;
+            }
         }
         else
         {
