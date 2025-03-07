@@ -1,25 +1,31 @@
 fileFormatVersion: 2
-guid: a08f2fe18f38b654482cffde7272f871
+guid: 7bc10f1ad430dd8468a508c828b156c2
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4976300395368239279
-    second: cyberpunk-corridor-foreground_0
+      213: -5137784188343526844
+    second: Leibniz_burning_0
   - first:
-      213: 3750017243048431243
-    second: cyberpunk-corridor-foreground_1
+      213: -2410023128634630459
+    second: Leibniz_burning_1
   - first:
-      213: -2440002004452664163
-    second: cyberpunk-corridor-foreground_2
+      213: 6074327877245576146
+    second: Leibniz_burning_2
   - first:
-      213: -3531238918044215435
-    second: cyberpunk-corridor-foreground_3
+      213: 5365679703364065804
+    second: Leibniz_burning_3
   - first:
-      213: -3544720872397951233
-    second: cyberpunk-corridor-foreground_4
+      213: -4497712822939863651
+    second: Leibniz_burning_4
   - first:
-      213: 127954010597146995
-    second: cyberpunk-corridor-foreground_5
+      213: 1851299739723737415
+    second: Leibniz_burning_5
+  - first:
+      213: -750697754947499691
+    second: Leibniz_burning_6
+  - first:
+      213: 6747895628438321406
+    second: Leibniz_burning_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -52,7 +58,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -90,7 +96,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -115,79 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_0
+      name: Leibniz_burning_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 135
-        width: 84
-        height: 25
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 15fa07ee721a0fab0800000000000000
-      internalID: -4976300395368239279
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_1
-      rect:
-        serializedVersion: 2
-        x: 91
-        y: 122
-        width: 18
-        height: 44
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b8ecd7960dcba0430800000000000000
-      internalID: 3750017243048431243
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_2
-      rect:
-        serializedVersion: 2
-        x: 118
-        y: 137
-        width: 74
-        height: 34
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d9c9b59ca1f532ed0800000000000000
-      internalID: -2440002004452664163
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_3
-      rect:
-        serializedVersion: 2
-        x: 232
+        x: 0
         y: 0
-        width: 24
-        height: 176
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -196,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 57790f0d9e48efec0800000000000000
-      internalID: -3531238918044215435
+      spriteID: 44a5a29708ce2b8b0800000000000000
+      internalID: -5137784188343526844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_4
+      name: Leibniz_burning_1
       rect:
         serializedVersion: 2
-        x: 28
+        x: 32
         y: 0
-        width: 85
-        height: 25
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -218,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ffeaec4b52f9ecec0800000000000000
-      internalID: -3544720872397951233
+      spriteID: 5ced14dbbb0ed8ed0800000000000000
+      internalID: -2410023128634630459
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: cyberpunk-corridor-foreground_5
+      name: Leibniz_burning_2
       rect:
         serializedVersion: 2
-        x: 154
+        x: 64
         y: 0
-        width: 11
-        height: 115
+        width: 32
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,8 +180,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 371ca35ae7596c100800000000000000
-      internalID: 127954010597146995
+      spriteID: 2d3a97c65095c4450800000000000000
+      internalID: 6074327877245576146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0ad989f249b67a40800000000000000
+      internalID: 5365679703364065804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9533f6740ae491c0800000000000000
+      internalID: -4497712822939863651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 749a10ffd4321b910800000000000000
+      internalID: 1851299739723737415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559cba68e5cf495f0800000000000000
+      internalID: -750697754947499691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef83a7a725755ad50800000000000000
+      internalID: 6747895628438321406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 345c42772ca2ff343a21a00ce3b83c90
+      internalID: 1418736356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_burning_9
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3f98bf2007f4d744be3960f5740dccf
+      internalID: 10567022
       vertices: []
       indices: 
       edges: []
@@ -250,7 +344,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 7d375b46d6e5bbb438f8aa530fb689a1
     internalID: 0
     vertices: []
     indices: 
@@ -260,12 +354,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      cyberpunk-corridor-foreground_0: -4976300395368239279
-      cyberpunk-corridor-foreground_1: 3750017243048431243
-      cyberpunk-corridor-foreground_2: -2440002004452664163
-      cyberpunk-corridor-foreground_3: -3531238918044215435
-      cyberpunk-corridor-foreground_4: -3544720872397951233
-      cyberpunk-corridor-foreground_5: 127954010597146995
+      Leibniz_burning_0: -5137784188343526844
+      Leibniz_burning_1: -2410023128634630459
+      Leibniz_burning_2: 6074327877245576146
+      Leibniz_burning_3: 5365679703364065804
+      Leibniz_burning_4: -4497712822939863651
+      Leibniz_burning_5: 1851299739723737415
+      Leibniz_burning_6: -750697754947499691
+      Leibniz_burning_7: 6747895628438321406
+      Leibniz_burning_8: 1418736356
+      Leibniz_burning_9: 10567022
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
