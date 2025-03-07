@@ -5,7 +5,6 @@ public class McScript : MonoBehaviour
     public Rigidbody2D mcRigidbody;
     public float speed;
     public float jump;
-    public LayerMask groundLayer;
     private bool isGrounded;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
