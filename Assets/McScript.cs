@@ -20,6 +20,13 @@ public class McScript : MonoBehaviour
         {
             mcRigidbody.linearVelocityY = jump*Time.deltaTime;
         }
+        if (Input.GetKeyDown(KeyCode.S) && isGrounded)
+        {
+            Vector3 Scaler = transform.localScale;
+            Scaler.y *= -1;
+            transform.localScale = Scaler;
+            mcRigidbody.gravityScale *= -1;
+        }
         if (Input.GetKey(KeyCode.D))
         {
             mcRigidbody.linearVelocityX = speed * Time.deltaTime;
