@@ -46,6 +46,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: "t\xFCp"
+    uniqueID: 3389621055
+    locked: 0
   - name: Background
     uniqueID: 2495316285
     locked: 0
@@ -57,6 +60,12 @@ TagManager:
     locked: 0
   - name: player
     uniqueID: 1868163647
+    locked: 0
+  - name: "s\xFCs"
+    uniqueID: 922288197
+    locked: 0
+  - name: "s\xFCs2"
+    uniqueID: 3234146341
     locked: 0
   m_RenderingLayers:
   - Default

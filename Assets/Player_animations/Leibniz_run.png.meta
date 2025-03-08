@@ -20,6 +20,12 @@ TextureImporter:
   - first:
       213: -8904739033242582301
     second: Leibniz_run_5
+  - first:
+      213: 7692532341659235655
+    second: Leibniz_run_6
+  - first:
+      213: -7794333473520417046
+    second: Leibniz_run_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -63,7 +69,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 1
+  spriteMeshType: 0
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -89,7 +95,7 @@ TextureImporter:
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
-    textureFormat: -1
+    textureFormat: 4
     textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
@@ -118,9 +124,9 @@ TextureImporter:
       name: Leibniz_run_0
       rect:
         serializedVersion: 2
-        x: 4
+        x: 0
         y: 0
-        width: 21
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -140,9 +146,9 @@ TextureImporter:
       name: Leibniz_run_1
       rect:
         serializedVersion: 2
-        x: 37
+        x: 32
         y: 0
-        width: 19
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -162,9 +168,9 @@ TextureImporter:
       name: Leibniz_run_2
       rect:
         serializedVersion: 2
-        x: 70
+        x: 64
         y: 0
-        width: 18
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -184,9 +190,9 @@ TextureImporter:
       name: Leibniz_run_3
       rect:
         serializedVersion: 2
-        x: 103
+        x: 96
         y: 0
-        width: 17
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -206,9 +212,9 @@ TextureImporter:
       name: Leibniz_run_4
       rect:
         serializedVersion: 2
-        x: 133
+        x: 128
         y: 0
-        width: 21
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -228,9 +234,9 @@ TextureImporter:
       name: Leibniz_run_5
       rect:
         serializedVersion: 2
-        x: 165
+        x: 160
         y: 0
-        width: 19
+        width: 32
         height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -246,11 +252,55 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
+    - serializedVersion: 2
+      name: Leibniz_run_6
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7457dcf686d51ca60800000000000000
+      internalID: 7692532341659235655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_run_7
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 0
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae601e18007f4d390800000000000000
+      internalID: -7794333473520417046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 5e97eb03825dee720800000000000000
     internalID: 0
     vertices: []
     indices: 
@@ -266,6 +316,8 @@ TextureImporter:
       Leibniz_run_3: 6029559011197184556
       Leibniz_run_4: 7282110259761680121
       Leibniz_run_5: -8904739033242582301
+      Leibniz_run_6: 7692532341659235655
+      Leibniz_run_7: -7794333473520417046
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
