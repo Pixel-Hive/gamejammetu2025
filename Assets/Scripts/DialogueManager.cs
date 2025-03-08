@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
 {
     public GameObject dialogueBox;
-    public Text dialogueText;
+    public TextMeshProUGUI dialogueText;
 
     public void ShowDialogue(string text)
     {
