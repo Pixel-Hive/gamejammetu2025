@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class McScript2 : MonoBehaviour
+public class mcscript : MonoBehaviour
 {
     public Rigidbody2D mcRigidbody;
-    public float speed;
-    public float jump;
+    public float speed=10;
+    public float jump=10;
     private bool isGrounded;
+    public bool birdIsAlive = true;
+    public Logic logic;
 
     private bool _isMoving = false;
     private bool _freezeHit = false;
@@ -64,19 +66,19 @@ public class McScript2 : MonoBehaviour
 
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded && birdIsAlive)
         {
             mcRigidbody.linearVelocityY = jump;
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.S) && isGrounded && birdIsAlive)
         {
             Vector3 Scaler = transform.localScale;
             Scaler.y *= -1;
@@ -84,9 +86,9 @@ public class McScript2 : MonoBehaviour
             mcRigidbody.gravityScale *= -1;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && birdIsAlive)
         {
-            mcRigidbody.linearVelocityX = speed ;
+            mcRigidbody.linearVelocityX = speed;
             if (transform.localScale.x < 0)
             {
                 Vector3 Scaler = transform.localScale;
@@ -95,7 +97,7 @@ public class McScript2 : MonoBehaviour
             }
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && birdIsAlive)
         {
             mcRigidbody.linearVelocityX = -speed;
             if (transform.localScale.x > 0)
@@ -119,9 +121,11 @@ public class McScript2 : MonoBehaviour
         {
             isGrounded = true;
         }
-        else if(collision.gameObject.CompareTag("Death"))
+        else if (collision.gameObject.CompareTag("Fire"))
         {
             IsBurn = true;
+            birdIsAlive = false;
+            logic.gameOver();
         }
     }
 
