@@ -596,6 +596,8 @@ MonoBehaviour:
   mcRigidbody: {fileID: 492691316}
   speed: 10
   jump: 10
+  birdIsAlive: 1
+  logic: {fileID: 0}
 --- !u!61 &492691318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -686,7 +688,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -6435113864764627201, guid: 02a7dd193573b8246bb348e850e3ee93, type: 3}
+  m_Sprite: {fileID: -6435113864764627201, guid: 74e6c696efe4370438b44d9ebde607df, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1388,6 +1390,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61ec0d250cccb0c49965c06ea0c0ced6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  gameOverScreen: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
