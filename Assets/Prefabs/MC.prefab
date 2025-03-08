@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 4039185657453852265}
   m_Layer: 0
   m_Name: MC
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -203,3 +203,4 @@ MonoBehaviour:
   jump: 10
   birdIsAlive: 1
   logic: {fileID: 0}
+  gravChange: 1
