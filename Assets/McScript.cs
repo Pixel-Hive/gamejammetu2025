@@ -124,13 +124,11 @@ public class mcscript : MonoBehaviour
         else if (collision.gameObject.CompareTag("Fire"))
         {
             IsBurn = true;
-            birdIsAlive = false;
             logic.gameOver();
         }
         else if (collision.gameObject.CompareTag("Freeze"))
         {
             IsFreeze = true;
-            birdIsAlive = false;
             logic.gameOver();
         }
     }
