@@ -119,7 +119,7 @@ public class McScript2 : MonoBehaviour
         {
             isGrounded = true;
         }
-        else if(collision.gameObject.CompareTag("Fire"))
+        else if(collision.gameObject.CompareTag("Death"))
         {
             IsBurn = true;
         }
