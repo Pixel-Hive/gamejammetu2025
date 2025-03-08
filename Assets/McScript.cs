@@ -9,6 +9,7 @@ public class mcscript : MonoBehaviour
     private bool isGrounded;
     public bool birdIsAlive = true;
     public Logic logic;
+    public int gravChange = 1;
 
     private bool _isMoving = false;
     private bool _freezeHit = false;
@@ -80,6 +81,7 @@ public class mcscript : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.S) && isGrounded && birdIsAlive)
         {
+            gravChange *= -1;
             Vector3 Scaler = transform.localScale;
             Scaler.y *= -1;
             transform.localScale = Scaler;
