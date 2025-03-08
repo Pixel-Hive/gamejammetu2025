@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 32a6df0a4fbc8d5479dddf3ad0de6b1b
+guid: 0736d98ad4ca4f649a34f14049717a0b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5829317490639511486
-    second: Fire_v2_0
-  - first:
-      213: -6932376400347276679
-    second: Fire_v2_1
-  - first:
-      213: 9129828494194360964
-    second: Fire_v2_2
+      213: 3096342911386816806
+    second: "tek sark\u0131t _0"
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -119,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire_v2_0
+      name: "tek sark\u0131t _0"
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 0
-        width: 34
-        height: 29
+        width: 10
+        height: 16
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -134,52 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ebf1a886f55e5e050800000000000000
-      internalID: 5829317490639511486
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_v2_1
-      rect:
-        serializedVersion: 2
-        x: 34
-        y: 0
-        width: 28
-        height: 30
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 97adff7a4604bcf90800000000000000
-      internalID: -6932376400347276679
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Fire_v2_2
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 482c1b0c4aaa3be70800000000000000
-      internalID: 9129828494194360964
+      spriteID: 6219208097b68fa20800000000000000
+      internalID: 3096342911386816806
       vertices: []
       indices: 
       edges: []
@@ -198,9 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fire_v2_0: 5829317490639511486
-      Fire_v2_1: -6932376400347276679
-      Fire_v2_2: 9129828494194360964
+      "tek sark\u0131t _0": 3096342911386816806
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
