@@ -313,7 +313,7 @@ GameObject:
   - component: {fileID: 207577652}
   m_Layer: 0
   m_Name: Fire
-  m_TagString: Death
+  m_TagString: Fire
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -569,9 +569,9 @@ GameObject:
   - component: {fileID: 492691320}
   - component: {fileID: 492691319}
   - component: {fileID: 492691318}
-  - component: {fileID: 492691317}
   - component: {fileID: 492691316}
   - component: {fileID: 492691321}
+  - component: {fileID: 492691322}
   m_Layer: 0
   m_Name: MC
   m_TagString: Untagged
@@ -606,23 +606,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!114 &492691317
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492691315}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ff36857ba82889d468cba0062090ddba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  mcRigidbody: {fileID: 492691316}
-  speed: 10
-  jump: 10
-  birdIsAlive: 1
-  logic: {fileID: 1929749928}
 --- !u!61 &492691318
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -761,6 +744,23 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &492691322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 492691315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ea9d62c57911b646b8b420283388ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mcRigidbody: {fileID: 492691316}
+  speed: 10
+  jump: 10
+  birdIsAlive: 1
+  logic: {fileID: 1929749928}
 --- !u!1 &522041872
 GameObject:
   m_ObjectHideFlags: 0
