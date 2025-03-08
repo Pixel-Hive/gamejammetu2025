@@ -127,6 +127,14 @@ public class mcscript : MonoBehaviour
             birdIsAlive = false;
             logic.gameOver();
         }
+
+        else if (collision.gameObject.CompareTag("Freeze"))
+        {
+            IsFreeze = true;
+            birdIsAlive = false;
+            logic.gameOver();
+        }
+
     }
 
     private void OnCollisionStay2D(Collision2D collision)
