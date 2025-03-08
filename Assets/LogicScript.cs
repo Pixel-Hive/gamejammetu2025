@@ -20,7 +20,10 @@ public class Logic : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
-
+    public void mainMenu()
+    {
+        SceneManager.LoadScene("MainMenuScreen");
+    }
     public void gameOver()
     {
         gameOverScreen.SetActive(true);
