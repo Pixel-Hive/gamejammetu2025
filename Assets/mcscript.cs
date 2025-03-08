@@ -84,6 +84,7 @@ public class mcscript : MonoBehaviour
             Scaler.y *= -1;
             transform.localScale = Scaler;
             mcRigidbody.gravityScale *= -1;
+            jump *= -1;
         }
 
         if (Input.GetKey(KeyCode.D) && birdIsAlive)
