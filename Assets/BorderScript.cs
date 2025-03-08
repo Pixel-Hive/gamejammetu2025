@@ -17,6 +17,9 @@ public class BorderScript : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        logic.gameOver();
+        if (collision.gameObject.CompareTag("Player"))
+        {
+            logic.gameOver();
+        }
     }
 }
