@@ -1,12 +1,14 @@
 using UnityEngine;
 using UnityEngine.UIElements;
 
-public class McScript : MonoBehaviour
+public class McScript1 : MonoBehaviour
 {
     public Rigidbody2D mcRigidbody;
     public float speed;
     public float jump;
     private bool isGrounded;
+    public bool birdIsAlive = true;
+    public Logic logic;
 
     private bool _isMoving = false;
     private Animator animator;
@@ -42,12 +44,12 @@ public class McScript : MonoBehaviour
     void Update()
     {
 
-        if (Input.GetKeyDown(KeyCode.W) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.W) && isGrounded && birdIsAlive)
         {
             mcRigidbody.linearVelocityY = jump;
         }
 
-        if (Input.GetKeyDown(KeyCode.S) && isGrounded)
+        if (Input.GetKeyDown(KeyCode.S) && isGrounded && birdIsAlive)
         {
             Vector3 Scaler = transform.localScale;
             Scaler.y *= -1;
@@ -55,7 +57,7 @@ public class McScript : MonoBehaviour
             mcRigidbody.gravityScale *= -1;
         }
 
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D) && birdIsAlive)
         {
             mcRigidbody.linearVelocityX = speed ;
             if (transform.localScale.x < 0)
@@ -66,7 +68,7 @@ public class McScript : MonoBehaviour
             }
         }
 
-        else if (Input.GetKey(KeyCode.A))
+        else if (Input.GetKey(KeyCode.A) && birdIsAlive)
         {
             mcRigidbody.linearVelocityX = -speed;
             if (transform.localScale.x > 0)
@@ -89,6 +91,12 @@ public class McScript : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+        }
+
+        if (collision.gameObject.CompareTag("Death"))
+        {
+            birdIsAlive = false;
+            logic.gameOver();
         }
     }
 
