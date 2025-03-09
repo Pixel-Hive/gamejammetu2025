@@ -101,7 +101,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1315205748634174000}
   m_LocalRotation: {x: -0.009828568, y: 0.0014389786, z: -0.71029556, w: -0.70383346}
-  m_LocalPosition: {x: 0, y: 0, z: -0.5}
+  m_LocalPosition: {x: 0, y: 0, z: -0.51}
   m_LocalScale: {x: 0.18095, y: 0.18095, z: 0.18095}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -109,7 +109,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0.91, y: 0.684, z: -269.471}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 19.3, y: 0.2}
+  m_AnchoredPosition: {x: 20.19, y: 0.2}
   m_SizeDelta: {x: 123.6646, y: 88.8796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4145663529306975168
@@ -340,7 +340,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -89.906}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -19.3587, y: 0.2012}
+  m_AnchoredPosition: {x: -20.47, y: 0.31}
   m_SizeDelta: {x: 123.6646, y: 88.8796}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5691487662363717575
@@ -393,7 +393,6 @@ GameObject:
   - component: {fileID: 2060441275236874654}
   - component: {fileID: 7201678233578627498}
   - component: {fileID: 6817151234530654121}
-  - component: {fileID: 2218203407853030175}
   - component: {fileID: 5850279412203016449}
   m_Layer: 5
   m_Name: Canvas
@@ -401,7 +400,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2055218079335729431
 RectTransform:
   m_ObjectHideFlags: 0
@@ -411,16 +410,16 @@ RectTransform:
   m_GameObject: {fileID: 4313511421085968127}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9175, y: 0.9175, z: 0.9175}
+  m_LocalScale: {x: 0.1, y: 0.1, z: 0.1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 6069277464243236707}
-  - {fileID: 7129561755771637991}
-  - {fileID: 2851975810745392125}
   - {fileID: 3610156672263883860}
   - {fileID: 6692668145420394344}
   - {fileID: 6480997445354553030}
   - {fileID: 8750534979894355840}
+  - {fileID: 6069277464243236707}
+  - {fileID: 7129561755771637991}
+  - {fileID: 2851975810745392125}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -448,8 +447,8 @@ Canvas:
   m_VertexColorAlwaysGammaSpace: 1
   m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingLayerID: -1168848107
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &7201678233578627498
 MonoBehaviour:
@@ -491,20 +490,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2218203407853030175
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4313511421085968127}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c5d2f5f80aa32fd4d91282721afed479, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  target: {fileID: 0}
-  offset: {x: 0, y: 0, z: -10}
 --- !u!114 &5850279412203016449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -531,7 +516,7 @@ GameObject:
   - component: {fileID: 4964826712245278859}
   - component: {fileID: 991048750853743674}
   - component: {fileID: 9075153720357893964}
-  m_Layer: 4
+  m_Layer: 5
   m_Name: GameOverButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -582,7 +567,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -754,7 +739,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8955471929174840760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: -0.1}
   m_LocalScale: {x: 0.046216637, y: 0.046216637, z: 0.046216637}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -790,7 +775,7 @@ MonoBehaviour:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
+  m_Maskable: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
