@@ -1,28 +1,16 @@
 fileFormatVersion: 2
-guid: 7de904a735e6caa408f355a94168b2f3
+guid: 8d274d15112fab74993434c037b8309d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5816642994671486895
-    second: portal_0
+      213: -804618480969918657
+    second: Right_Portal_0
   - first:
-      213: 2720290072527178061
-    second: portal_1
+      213: 6280487935817464436
+    second: Right_Portal_1
   - first:
-      213: -68809774801260167
-    second: portal_2
-  - first:
-      213: -4604820735629425415
-    second: portal_3
-  - first:
-      213: -6538954407832343249
-    second: portal_4
-  - first:
-      213: 7305771432161720801
-    second: portal_5
-  - first:
-      213: 6485356823907138318
-    second: portal_6
+      213: 3117719540544528698
+    second: Right_Portal_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -55,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -93,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -131,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: portal_0
+      name: Right_Portal_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 32
-        height: 32
+        x: 15
+        y: 1
+        width: 14
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -146,20 +134,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1587755a302274fa0800000000000000
-      internalID: -5816642994671486895
+      spriteID: f37d21e21cb65d4f0800000000000000
+      internalID: -804618480969918657
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_1
+      name: Right_Portal_1
       rect:
         serializedVersion: 2
-        x: 32
-        y: 0
-        width: 32
-        height: 32
+        x: 47
+        y: 1
+        width: 13
+        height: 29
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,20 +156,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d490103886960c520800000000000000
-      internalID: 2720290072527178061
+      spriteID: 47ab68e8086c82750800000000000000
+      internalID: 6280487935817464436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: portal_2
+      name: Right_Portal_2
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 32
-        height: 32
+        x: 78
+        y: 3
+        width: 12
+        height: 27
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -190,96 +178,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 97175e7dfd98b0ff0800000000000000
-      internalID: -68809774801260167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: portal_3
-      rect:
-        serializedVersion: 2
-        x: 96
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9f4847630f36810c0800000000000000
-      internalID: -4604820735629425415
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: portal_4
-      rect:
-        serializedVersion: 2
-        x: 128
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f2dada66c97f045a0800000000000000
-      internalID: -6538954407832343249
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: portal_5
-      rect:
-        serializedVersion: 2
-        x: 160
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e93230f860536560800000000000000
-      internalID: 7305771432161720801
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: portal_6
-      rect:
-        serializedVersion: 2
-        x: 192
-        y: 0
-        width: 32
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e0bf3a2abad900a50800000000000000
-      internalID: 6485356823907138318
+      spriteID: a31637b576d544b20800000000000000
+      internalID: 3117719540544528698
       vertices: []
       indices: 
       edges: []
@@ -288,7 +188,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 46527b1e9bb68564ea660edc05e77afa
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -297,14 +197,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      portal_0: -5816642994671486895
-      portal_1: 2720290072527178061
-      portal_2: -68809774801260167
-      portal_3: -4604820735629425415
-      portal_4: -6538954407832343249
-      portal_5: 7305771432161720801
-      portal_6: 6485356823907138318
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
