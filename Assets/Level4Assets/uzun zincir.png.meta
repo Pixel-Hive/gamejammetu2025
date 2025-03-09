@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      uzun zincir_0: -1700708257429413767
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

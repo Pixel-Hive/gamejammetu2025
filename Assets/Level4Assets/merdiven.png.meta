@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      merdiven_0: -5618441746546909275
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
