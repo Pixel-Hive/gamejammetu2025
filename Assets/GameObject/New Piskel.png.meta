@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: d874b025284c0ec4baa9fb6604cdcb72
+guid: fbf69d447799fa948886d08bb6e0d673
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5772542039177256446
-    second: Fire_v3_0
+      213: -2510476293373519475
+    second: New Piskel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire_v3_0
+      name: New Piskel_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 96
-        height: 31
+        y: 21
+        width: 80
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efd5b2086603c1050800000000000000
-      internalID: 5772542039177256446
+      spriteID: d899e6cbc1ff82dd0800000000000000
+      internalID: -2510476293373519475
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Fire_v3_0: 5772542039177256446
+      New Piskel_0: -2510476293373519475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

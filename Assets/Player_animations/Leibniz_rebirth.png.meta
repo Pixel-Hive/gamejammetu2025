@@ -1,10 +1,16 @@
 fileFormatVersion: 2
-guid: d874b025284c0ec4baa9fb6604cdcb72
+guid: 5a1242e8c1c820e42b8098690fa75188
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5772542039177256446
-    second: Fire_v3_0
+      213: -3016263797478390851
+    second: Leibniz_rebirth_0
+  - first:
+      213: 1667131634147524930
+    second: Leibniz_rebirth_1
+  - first:
+      213: -5179032989632076989
+    second: Leibniz_rebirth_2
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +43,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +81,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +106,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Fire_v3_0
+      name: Leibniz_rebirth_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 3
         y: 0
-        width: 96
-        height: 31
+        width: 21
+        height: 32
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +121,52 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: efd5b2086603c1050800000000000000
-      internalID: 5772542039177256446
+      spriteID: db30e6a9e041426d0800000000000000
+      internalID: -3016263797478390851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_rebirth_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2410e2f6367d22710800000000000000
+      internalID: 1667131634147524930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Leibniz_rebirth_2
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 21
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34363f48fe06028b0800000000000000
+      internalID: -5179032989632076989
       vertices: []
       indices: 
       edges: []
@@ -134,8 +184,7 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable:
-      Fire_v3_0: 5772542039177256446
+    nameFileIdTable: {}
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
