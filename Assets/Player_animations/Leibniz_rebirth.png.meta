@@ -184,7 +184,10 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Leibniz_rebirth_0: -3016263797478390851
+      Leibniz_rebirth_1: 1667131634147524930
+      Leibniz_rebirth_2: -5179032989632076989
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
