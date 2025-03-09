@@ -67,5 +67,8 @@ TagManager:
   - name: "s\xFCs2"
     uniqueID: 3234146341
     locked: 0
+  - name: top layer
+    uniqueID: 3126119189
+    locked: 0
   m_RenderingLayers:
   - Default
