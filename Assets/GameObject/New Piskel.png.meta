@@ -1,16 +1,10 @@
 fileFormatVersion: 2
-guid: 5a1242e8c1c820e42b8098690fa75188
+guid: fbf69d447799fa948886d08bb6e0d673
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3016263797478390851
-    second: Leibniz_rebirth_0
-  - first:
-      213: 1667131634147524930
-    second: Leibniz_rebirth_1
-  - first:
-      213: -5179032989632076989
-    second: Leibniz_rebirth_2
+      213: -2510476293373519475
+    second: New Piskel_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -43,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -81,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Leibniz_rebirth_0
+      name: New Piskel_0
       rect:
         serializedVersion: 2
-        x: 3
-        y: 0
-        width: 21
-        height: 32
+        x: 0
+        y: 21
+        width: 80
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -121,52 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db30e6a9e041426d0800000000000000
-      internalID: -3016263797478390851
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Leibniz_rebirth_1
-      rect:
-        serializedVersion: 2
-        x: 35
-        y: 0
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 2410e2f6367d22710800000000000000
-      internalID: 1667131634147524930
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Leibniz_rebirth_2
-      rect:
-        serializedVersion: 2
-        x: 67
-        y: 0
-        width: 21
-        height: 32
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 34363f48fe06028b0800000000000000
-      internalID: -5179032989632076989
+      spriteID: d899e6cbc1ff82dd0800000000000000
+      internalID: -2510476293373519475
       vertices: []
       indices: 
       edges: []
@@ -184,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      New Piskel_0: -2510476293373519475
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
